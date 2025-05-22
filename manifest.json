@@ -1,0 +1,63 @@
+{
+	"UUID": "com.nucleares.controller",
+	"Actions": [
+		{
+			"Icon": "Images/icon",
+			"Name": "Stats",
+			"States": [
+				{
+					"Image": "Images/pluginAction",
+					"TitleAlignment": "middle",
+					"FontSize": 12
+				}
+			],
+			"Controllers": [
+				"Keypad"
+			],
+			"SupportedInMultiActions": false,
+			"Tooltip": "Does a thing",
+			"UUID": "com.nucleares.controller.statkey",
+			"PropertyInspectorPath": "PropertyInspector/StatKeyPI.html"
+		},
+		{
+			"Icon": "Images/icon",
+			"Name": "Command",
+			"States": [
+				{
+					"Image": "Images/pluginAction",
+					"TitleAlignment": "middle",
+					"FontSize": 12
+				}
+			],
+			"Controllers": [
+				"Keypad"
+			],
+			"SupportedInMultiActions": false,
+			"Tooltip": "Does a thing",
+			"UUID": "com.nucleares.controller.commandkey",
+			"PropertyInspectorPath": "PropertyInspector/CommandKeyPI.html"
+		}
+	],
+	"Author": "nathanctech",
+	"Name": "Nucleares Controller",
+	"Description": "Controller for the game Nucleares",
+	"Icon": "Images/pluginIcon",
+	"URL": "https://nathanc.tech",
+	"Version": "0.0.0.1",
+	"CodePath": "com.nucleares.controller.exe",
+	"Category": "Nucleares Controller",
+	"CategoryIcon": "Images/categoryIcon",
+	"OS": [
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.4"
+	},
+	"ApplicationsToMonitor": {
+    "windows": ["Nucleares.exe"]
+	}
+}
