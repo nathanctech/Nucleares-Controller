@@ -89,16 +89,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NuclearesController\NukeWeb\NukeWeb.csproj">
-      <Project>{7bdf9212-6e3a-47fb-bd1a-2fc205be181c}</Project>
-      <Name>NukeWeb</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.9.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="NLog" Version="5.4.0" />
     <PackageReference Include="StreamDeck-Tools" Version="6.3.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="NukeWeb\NukeWeb.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Images\statKey.svg">

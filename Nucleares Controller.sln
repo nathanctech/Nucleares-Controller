@@ -5,7 +5,7 @@ VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuclearesController.sdPlugin", "NuclearesController.sdPlugin.csproj", "{4635D874-69C0-4010-BE46-77EF92EB1553}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukeWeb", "..\NuclearesController\NukeWeb\NukeWeb.csproj", "{7BDF9212-6E3A-47FB-BD1A-2FC205BE181C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukeWeb", "NukeWeb\NukeWeb.csproj", "{D8248F51-02DE-4373-970B-718347BF4E40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{4635D874-69C0-4010-BE46-77EF92EB1553}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4635D874-69C0-4010-BE46-77EF92EB1553}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4635D874-69C0-4010-BE46-77EF92EB1553}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7BDF9212-6E3A-47FB-BD1A-2FC205BE181C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BDF9212-6E3A-47FB-BD1A-2FC205BE181C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BDF9212-6E3A-47FB-BD1A-2FC205BE181C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BDF9212-6E3A-47FB-BD1A-2FC205BE181C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8248F51-02DE-4373-970B-718347BF4E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8248F51-02DE-4373-970B-718347BF4E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8248F51-02DE-4373-970B-718347BF4E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8248F51-02DE-4373-970B-718347BF4E40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
